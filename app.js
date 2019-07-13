@@ -8,8 +8,8 @@ App({
 
 
     // 获取场景值的两种方式
-    console.log(options.scene);
-    console.log(wx.getLaunchOptionsSync().scene);
+    // console.log(options.scene);
+    // console.log(wx.getLaunchOptionsSync().scene);
   },
 
   onShow(options) {

@@ -1,0 +1,7 @@
+function propObserver(newVal, oldVal, ownerInstance, instance) {
+
+}
+
+module.exports = {
+  propObserver: propObserver
+}

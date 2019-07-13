@@ -1,0 +1,18 @@
+/* pages/demo01/demo01.wxss */
+
+.scroll-view {
+  width: 80%;
+  height: 500rpx;
+  border: 1px solid #000;
+}
+
+.view1 {
+  height: 2000rpx;
+}
+
+.content {
+  margin-top: 1000rpx;
+  width: 500rpx;
+  height: 600rpx;
+  background-color: red;
+}

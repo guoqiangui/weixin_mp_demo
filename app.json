@@ -1,6 +1,7 @@
 {
   "pages": [
-    "pages/index/index"
+    "pages/index/index",
+    "pages/demo01/demo01"
   ],
   "window": {
     "navigationBarTitleText": "Demo",
@@ -8,7 +9,8 @@
     "navigationBarTextStyle": "white",
     "enablePullDownRefresh": true,
     "backgroundColor": "#f00",
-    "backgroundTextStyle": "dark"
+    "backgroundTextStyle": "dark",
+    "pageOrientation": "auto"
   },
   "siteMapLocation": "sitemap.json",
   "sitemapLocation": "sitemap13.json"

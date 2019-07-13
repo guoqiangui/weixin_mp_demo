@@ -1,49 +1,51 @@
-<view>{{ msg }}</view>
+<!-- <view>{{ msg }}</view> -->
 
 <!-- 列表渲染 -->
 <!-- 默认当前项为item，索引为index -->
 <!-- <view wx:for="{{ array }}">{{ item }}</view> -->
 
 <!-- wx:for-item指定当前项的变量名，wx:for-index指定索引名 -->
-<view wx:for="{{array}}" wx:for-item="value" wx:for-index="key">
+<!-- <view wx:for="{{array}}" wx:for-item="value" wx:for-index="key">
   {{key}} ===> {{value}}
-</view>
+</view> -->
 
 <!-- wx:for可以嵌套 -->
 <!-- 99乘法表 -->
-<view wx:for="{{ [1,2,3,4,5,6,7,8,9] }}" wx:for-item="i">
+<!-- <view wx:for="{{ [1,2,3,4,5,6,7,8,9] }}" wx:for-item="i">
   <view wx:for="{{ [1,2,3,4,5,6,7,8,9] }}" wx:for-item="j">
     <view wx:if="{{ i <= j }}">
       {{ i }} * {{ j }} = {{ i * j }}
     </view>
   </view>
-</view>
+</view> -->
 
 <!-- 条件渲染 -->
-<view wx:if="{{ view == '杜兰特' }}">杜兰特</view>
+<!-- <view wx:if="{{ view == '杜兰特' }}">杜兰特</view>
 <view wx:elif="{{ view == '字母哥' }}">字母哥</view>
-<view wx:else>詹姆斯</view>
+<view wx:else>詹姆斯</view> -->
 
 <!-- 模板 -->
-<template name="staffName">
+<!-- <template name="staffName">
   <view>
     FirstName: {{ firstName }}, LastName: {{ lastName }}
   </view>
-</template>
+</template> -->
 
 <!-- is属性指定要使用的模板名字，data指定模板要使用的数据 -->
-<template is="staffName" data="{{ ...staffA }}"></template>
+<!-- <template is="staffName" data="{{ ...staffA }}"></template>
 <template is="staffName" data="{{ ...staffB }}"></template>
-<template is="staffName" data="{{ ...staffC }}"></template>
+<template is="staffName" data="{{ ...staffC }}"></template> -->
 
 
 <!-- 测试wxs脚本的使用，module属性指定模块的名字 -->
-<wxs module="m1">
+<!-- <wxs module="m1">
   var msg = "这是wxs脚本里面的内容";
 
   module.exports.msg = msg;
 </wxs>
-<view>{{ m1.msg }}</view>
+<view>{{ m1.msg }}</view> -->
+
+
 
 <view bindtap="clickEvent" data-haha-hehe="我是自定义属性">点击我</view>
 
@@ -52,3 +54,12 @@
   我是外层
   <view bindtap="innerEvent" mark:heihei2="嘿嘿2">我是内层</view>
 </view>
+
+
+<!-- 官方案例：使用WXS函数响应事件 -->
+<wxs src="./test.wxs" module="test"></wxs>
+
+<!-- 下面的change:prop（属性前面带change:前缀）是在 prop 属性被设置的时候触发 WXS 函数，值必须用{{}}括起来。类似 Component 定义的 properties 里面的 observer 属性，在setData({propValue: newValue})调用之后会触发。 -->
+<view prop="{{propValue}}" change:prop="{{test.propObserver}} "></view>
+
+<navigator url="../demo01/demo01" style="line-height: 30px; background-color: #eee;">跳转到获取节点信息</navigator>

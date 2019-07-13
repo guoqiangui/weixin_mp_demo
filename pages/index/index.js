@@ -14,7 +14,8 @@ Page({
     staffC: {
       firstName: 'firstName3',
       lastName: 'lastName3'
-    }
+    },
+    propValue: '测试值'
   },
 
   clickEvent(e) {
@@ -33,11 +34,11 @@ Page({
   },
 
   onLoad() {
-    console.log('监听页面加载');
+    // console.log('监听页面加载');
   },
 
   onReady() {
-    console.log('页面首次渲染完成')
+    // console.log('页面首次渲染完成')
 
     // 导入common模块
     var common = require('../test_module/common.js')
@@ -54,7 +55,7 @@ Page({
   },
 
   onShow() {
-    console.log('监听页面显示')
+    // console.log('监听页面显示')
   },
 
   onPullDownRefresh() {

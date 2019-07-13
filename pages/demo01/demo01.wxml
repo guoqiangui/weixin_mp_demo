@@ -1,0 +1,7 @@
+<!--pages/demo01/demo01.wxml-->
+<text>这是demo01.wxml</text>
+<scroll-view class="scroll-view" scroll-y>
+  <view class="view1">
+    <view class="content">现在你看到我了</view>
+  </view>
+</scroll-view>
