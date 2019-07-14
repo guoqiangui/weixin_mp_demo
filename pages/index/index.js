@@ -41,7 +41,7 @@ Page({
     // console.log('页面首次渲染完成')
 
     // 导入common模块
-    var common = require('../test_module/common.js')
+    var common = require('../../test_module/common.js')
 
     common.sayHello('詹姆斯');
     common.sayGoodbye('杜兰特');
