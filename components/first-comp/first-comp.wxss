@@ -1,0 +1,8 @@
+/* components/first-comp/first-comp.wxss */
+.first-comp {
+  width: 300rpx;
+  height: 300rpx;
+  background-color: #0f0;
+  border: 2px solid #000;
+  text-align: center;
+}

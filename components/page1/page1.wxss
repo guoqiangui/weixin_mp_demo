@@ -1,0 +1,4 @@
+/* components/page1/page1.wxss */
+page {
+  background-color: yellow;
+}

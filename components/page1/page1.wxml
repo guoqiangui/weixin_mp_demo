@@ -1,0 +1,5 @@
+<!--components/page1/page1.wxml-->
+<view class="page1">
+  <view>欢迎你：{{username}}</view>
+  这是page1，是一个自定义组件，也是一个页面
+</view>

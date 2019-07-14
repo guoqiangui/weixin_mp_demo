@@ -1,0 +1,10 @@
+<!--pages/demo02/demo02.wxml-->
+<text>这是demo02.wxml</text>
+
+<view class="wrapper">
+  <!-- 使用自定义的组件 -->
+  <first-comp msg="用户要显示的信息">
+    <view slot="before">before插槽</view>
+    <view slot="after">after插槽</view>
+  </first-comp>
+</view>

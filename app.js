@@ -10,6 +10,31 @@ App({
     // 获取场景值的两种方式
     // console.log(options.scene);
     // console.log(wx.getLaunchOptionsSync().scene);
+
+    
+    // 提示用户更新
+    const updateManager = wx.getUpdateManager()
+
+    updateManager.onCheckForUpdate(res => {
+      // 测试版没有更新，坑啊
+      if (res.hasUpdate) {
+        console.log('有更新')
+      } else {
+        console.log('暂无更新')
+      }
+    })
+
+    updateManager.onUpdateReady(() => {
+      wx.showModal({
+        title: '更新提示',
+        content: '新版本已经准备好，是否重启应用？',
+        success(res) {
+          if(res.confirm) {
+            updateManager.applyUpdate()
+          }
+        }
+      })
+    })
   },
 
   onShow(options) {

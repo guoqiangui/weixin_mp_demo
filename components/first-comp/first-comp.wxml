@@ -1,0 +1,6 @@
+<!--components/first-comp/first-comp.wxml-->
+<view class="first-comp">
+  <slot name="before"></slot>
+  {{msg}}
+  <slot name="after"></slot>
+</view>

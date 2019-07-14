@@ -63,3 +63,7 @@
 <view prop="{{propValue}}" change:prop="{{test.propObserver}} "></view>
 
 <navigator url="../demo01/demo01" style="line-height: 30px; background-color: #eee;">跳转到获取节点信息</navigator>
+
+<navigator url="../demo02/demo02" style="line-height: 40px; background: pink;">跳转到自定义组件的练习</navigator>
+
+<navigator url="../../components/page1/page1?username=张三" style="line-height: 40px; background: yellow;">跳转到用Component构造的页面</navigator>

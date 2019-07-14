@@ -1,0 +1,11 @@
+/* pages/demo02/demo02.wxss */
+
+/* 通过控制台发现，根节点是page */
+page {
+  background-color: #eee;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;  /* 水平居中 */
+}
