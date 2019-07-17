@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "selectable-group": "../../components/selectable-group/selectable-group",
+    "custom-radio": "../../components/custom-radio/custom-radio"
+  }
+}

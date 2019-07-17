@@ -1,0 +1,6 @@
+<!--pages/demo03/demo03.wxml-->
+<text>这是demo03.wxml，测试组件间通信</text>
+
+<!-- 父组件向子组件传递信息，使用属性 -->
+<!-- 子组件向父组件传递信息，使用自定义事件 -->
+<my-comp msg="从父组件传递的信息" bindmyevent="handleMyEvent"></my-comp>

@@ -1,0 +1,6 @@
+<!--components/selectable-group/selectable-group.wxml-->
+<view class="selectable-group">
+  <selectable disable="{{false}}"></selectable>
+  <selectable disable="{{false}}"></selectable>
+  <selectable disable="{{false}}"></selectable>
+</view>

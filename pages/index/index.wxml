@@ -67,3 +67,13 @@
 <navigator url="../demo02/demo02" style="line-height: 40px; background: pink;">跳转到自定义组件的练习</navigator>
 
 <navigator url="../../components/page1/page1?username=张三" style="line-height: 40px; background: yellow;">跳转到用Component构造的页面</navigator>
+
+<navigator url="../demo03/demo03" style="line-height: 40px; background: skyblue;">跳转到组件间通信练习</navigator>
+
+<navigator url="../demo04/demo04" style="line-height: 40px; background: lightgreen;">跳转到组件间关系练习</navigator>
+
+<navigator url="../demo05/demo05" style="line-height: 40px; background: pink;">跳转到数据监听器练习</navigator>
+
+<navigator url="../demo06/demo06" style="line-height: 40px; background: yellow;">抽象组件练习</navigator>
+
+<navigator url="../demo07/demo07" style="line-height: 40px; background: skyblue;">自定义组件扩展练习</navigator>

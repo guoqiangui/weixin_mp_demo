@@ -1,0 +1,14 @@
+<!--pages/demo04/demo04.wxml-->
+<text>pages/demo04/demo04.wxml，用来练习组件间关系</text>
+
+<custom-ul>
+  <custom-li>项目1</custom-li>
+  <custom-li>项目2</custom-li>
+</custom-ul>
+
+
+<!-- 2、关联一类组件 -->
+<custom-form>
+  自定义的input组件: <custom-input></custom-input>
+  <custom-button>自定义按钮</custom-button>
+</custom-form>

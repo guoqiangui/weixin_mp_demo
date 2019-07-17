@@ -1,0 +1,5 @@
+<!--pages/demo06/demo06.wxml-->
+<text>pages/demo06/demo06.wxml，练习抽象组件</text>
+
+<!-- 指定抽象组件 -->
+<selectable-group generic:selectable="custom-radio"></selectable-group>

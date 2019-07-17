@@ -19,7 +19,15 @@ Component({
 
   // 自定义方法
   methods: {
-    
+    handleTap() {
+      var eventDetail = {
+        username: '张三'
+      }
+      var eventOptions = {}
+
+      // 触发自定义事件
+      this.triggerEvent('myevent', eventDetail, eventOptions)
+    }
   },
 
   lifetimes: {

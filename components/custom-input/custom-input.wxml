@@ -1,0 +1,2 @@
+<!--components/custom-input/custom-input.wxml-->
+<input class="custom-input" />

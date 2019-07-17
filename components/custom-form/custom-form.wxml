@@ -1,0 +1,3 @@
+<!--components/custom-form/custom-form.wxml-->
+表单：
+<slot></slot>

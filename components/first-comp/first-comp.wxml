@@ -3,4 +3,6 @@
   <slot name="before"></slot>
   {{msg}}
   <slot name="after"></slot>
+
+  <button bindtap="handleTap">点我向父组件传递信息</button>
 </view>

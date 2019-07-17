@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "my-comp": "../../components/first-comp/first-comp"
+  }
+}

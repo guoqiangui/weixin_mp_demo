@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "custom-ul": "../../components/custom-ul/custom-ul",
+    "custom-li": "../../components/custom-li/custom-li",
+    "custom-form": "../../components/custom-form/custom-form",
+    "custom-input": "../../components/custom-input/custom-input",
+    "custom-button": "../../components/custom-button/custom-button"
+  }
+}

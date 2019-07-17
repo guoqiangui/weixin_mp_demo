@@ -1,0 +1,4 @@
+<!--components/custom-button/custom-button.wxml-->
+<button class="custom-button">
+  <slot></slot>
+</button>

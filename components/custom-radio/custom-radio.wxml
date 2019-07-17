@@ -1,0 +1,4 @@
+<!--components/custom-radio/custom-radio.wxml-->
+<view class="custom-radio">
+  <radio></radio>
+</view>

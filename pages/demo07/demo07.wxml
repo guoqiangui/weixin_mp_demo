@@ -1,0 +1,10 @@
+<!--pages/demo07/demo07.wxml-->
+<text>pages/demo07/demo07.wxml，自定义组件扩展（本页面是组件页面）</text>
+
+
+<!-- 可以通过控制台的AppData选项来调试 -->
+<view class="demo7">
+  <view>num1: {{num1}}</view>
+  <view>num2: {{num2}}</view>
+  <view>num1 + num2 = {{sum}}</view>
+</view>
